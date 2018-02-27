@@ -1,0 +1,19 @@
+
+
+#section1 {
+    background: url("https://hdqwalls.com/download/spotify-logo-4k-image-2560x1440.jpg")
+}
+#section1 { background-size: cover;
+    
+}
+#section2{
+    background: url("http://www.freewindowswallpaper.com/images/1280x800/red001.jpg")
+}
+#section2 { background-size: cover;
+    
+}
+
+.section{
+    text-align: center;
+    color: black;
+}
