@@ -1,40 +1,71 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My Personal Details</title>
-    <link href = "myStylesheets1.css" rel="stylesheet" type ="text/css"/>
+        <title>Personal</title>
+        <link rel="stylesheet" href="mystylesheet.css" type="text/css" />
+        
+        <!--Adding Bootstrap-->
+        <!--From Bootstrap.com-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+      <style type="text/css">
+            .topnav {
+            overflow: hidden;
+            background-color: #b4b4b4;
+            }
+                
+            .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            }
+                
+            .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+            }
+                
+            .topnav .active {
+            background-color: #70708F;
+            color: white;
+            }
+            
+            body { background-image: url(https://c.wallhere.com/photos/eb/12/simple_background-158060.png!d)
+            }
+            body { text-align:center; 
+            }
+      </style>  
+    
+    
+        
     </head>
     <body>
-        <h1 class ="mainheading">My Personal Details </h1>
-        <p><strong>Name:</strong> Alison Olden</p>
-        <p><strong>Address:</strong> Douglas,Cork, Munster, Ireland</p>
-        <p><strong>Phone:</strong> 0850267437</p>
-        <p><strong>Email:</strong>117324601@umail.ucc.ie</p>
-        
-        <h1 class ="mainheading">My Educational Details</h1>
-        <p><strong>Name:</strong> Scoil Mhuire College, Cork </p>
-        <p><strong>College:</strong> Cork, Munster, Ireland</p>
-        <p><strong>Year:</strong>2011-2017</p>
-        <p><strong> Leaving Certificate results:495 CAO points </strong>
-        </br> Irish:H2
-        </br> English:H4
-        </br> Maths:O2 
-        </br> Geography:H2
-        </br> Business:H2
-        </br> French:H2
-        </br >Biology:H3
-        </br></p>
+    
+        <!--Adding a border around the mainheading-->
+        <h1 style="border:2px solid black;" class="mainheading">Personal Details</h1>
         <br/>
+        <br/>
+        <p>A little bit about me and how you can contact me.</p>
+        <br/>
+        My name is Alison Olden I am 19 years old and I'm currently in first year Business Information Systems
+        <br/>
+        <!--Adding an image-->
+        <img src="https://scontent-dub4-1.xx.fbcdn.net/v/t1.0-9/21192219_1618380778237373_5287015268218661476_n.jpg?oh=44385992333139367b33a331bf78e028&oe=5B4592AB" alt="Profile" style="width:100px;height:100px" align="right;"> 
+        <br/>
+        <p><strong>Name:</strong> Alison Olden</p>
+        <p><strong>Date of Birth:</strong>0*/**/19**</p>
+        <p><strong>Address:</strong> Wood*****, Bun*****, Donough****,Cork </p>
+        <p><strong>City:</strong> Cork</p>
+        <p><strong>Phone:</strong> 085*******</p>
+        <p><strong>Email:</strong> 117******@*****</p>
+  
         
-        <p><strong>College:</strong>University College Cork</p>
-        <p><strong>Course:</strong>Business Information Systems</p>
-        <p><strong>Year:</strong>2017-2021</p>
-        
-       
-        <a href="#" class="previous">&laquo; Previous</a>
-        <a href="#" class="next">Next &raquo;</a>
-
-
-
-</body>
+        <a href="cv_Page2.html" class="btn btn-dark">Next</a>
+    </body>
 </html>
