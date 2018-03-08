@@ -6,14 +6,14 @@
 
 	<html>
 	    <head>
-	        <title>Enter Details</title>
+	        <title> Enter Details</title>
 	        
 	        <!--jQuery-->
 	        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	         <PHP><head><link href="Ebus.css" rel="stylesheet" type="text/css">
+	        <!--Adding style-->
 	         <style type = "text/css">
-	             #content {
-	                  top:8em;
+	             #maincontent {
+	                  top:12em;
 	                  left:25em;
 	                  width:30em;
 	                  height:25em;
@@ -21,24 +21,44 @@
 	                  border-style:ridge;
 	             }
 	 
-	 h1 {
-    color: navy;
-    font-family: verdana;
+	h1 {
+    color: White;
+    font-family: "Times New Roman", Times, serif;
     font-size: 250%;
-}            
-	 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #dddddd;
-    font-size: 150%;
+  	text-align:center;
+}  
+div {
+   	text-align:center;
 }
-	
-	li{
-	    float: left;
-	    
-	}
-	
+ul li a{
+  text-decoration:none;
+  margin: 20px;
+  
+  color:white;
+  
+  
+}
+
+ul li a:hover{
+  background: white;
+  padding:2%;
+  color:black;
+}
+
+ul li {
+  list-style:none;
+   display:inline;
+  position:relative;
+  top:30%;
+}
+
+ul{
+  background: #34495E;
+  width:100%;
+  height:10%;
+  position:absolute;
+  
+}
 	
 	input[type=text] {
 	                           border: 2px solid blue;
@@ -46,12 +66,12 @@
 	                           text-align:center;
 	}
 	input[type=password] {
-	                           border: 2px solid blue;
+	                           border: 2px solid blue ;
 	                           border-radius: 4px;
 	                           text-align:center;
 	}
 	 button[type=submit]:disabled {
-	                            border: 2px solid blue;
+	                           border: 2px solid blue;
 	                           border-radius: 4px;
 	                           color: black;
 	                           padding: 5px;
@@ -59,7 +79,7 @@
 	                           
 	       }
 	        button[type=submit]:enabled {
-	                           background-color: #42d7f4;
+	                           background-color:#34495E;
 	                           border-radius: 2px;
 	                           border:none;
 	                           color: black;
@@ -71,18 +91,26 @@
 	         
 	         
 	         
-	         </head></PHP>
+	         </head>
 	    </head>
 	    <body>
 	        
-	        
-	     <h1 align = "center" style="background-color:DodgerBlue;"  class="mainheading" > Enter Your Details </h1>
+	       <!--Adding a heading--> 
+	     <h1 align = "center" style="background-color:#34495E;"  class="mainheading" > Please Enter Your Details </h1>
         
-
- 
+        
+     <!--Adding the nav bar-->
+<div class="container">
+                <ul>
+                   <li><a href="CV/cv_Page1.html" class="curriculum">Curriculum Vitae</a></li>
+                   <li><a href="interests/sports.html">Interests</a></li>
+                   <li><a href="eBusiness/eBus1.php">Ebusiness</a></li>
+                   <li><a href="https://github.com/aliolden/IS1113Project" class="btn btn-dark">Github</a><li/>
+                </ul>
+	        
 	   
-	        <div id ="content">
-	            <form action="eBus3.html" method="POST">
+	        <div id ="maincontent">
+            <form   method="POST" action="eBus3.html">
 	                    <br>
 	                    <label for = "name">
 	                        <strong> &nbsp; Name:</strong>
@@ -118,5 +146,40 @@
 	         $_SESSION["email"] = $_POST["email"];
 	        ?>
 	        
-	        </body>
+	  <br/>
+       <br/>
+       <br/>
+       <br/>
+       <br/>
+       <br/>
+       <br/>
+        <br/>
+       <br/>
+       <br/>
+       <br/>
+       <br/>
+       <br/>
+       <br/> 
+       <br/>
+       <br/>
+       <br/>
+       <br/>
+       <br/>
+       <br/>
+        <br/>
+       <br/>
+       <br/>
+       <br/>
+       <br/>
+       <br/>
+       <br/>
+       <br/>
+       <br/>
+       <br/>
+       <br/>
+       <br/>
+       <br/>
+
+      
+	    </body>
 	</html>

@@ -13,19 +13,7 @@ h1 {
 	left:25em;
     text-align:center;
 }
-   div {
-   	text-align:center;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #dddddd;
-    font-size: 150%;
-}
-li {
-    display: inline;
-}
+
 ul li a:hover{
   color:black;
   background:blue;
@@ -145,12 +133,12 @@ a{
                 <ul>
                    <li><a href="CV/cv_Page1.html" class="curriculum">Curriculum Vitae</a></li>
                    <li><a href="interests/sports.html">Interests</a></li>
-                   <li><a href="eBusiness/eBus1.html">Ebusiness</a></li>
+                   <li><a href="eBusiness/eBus1.php">Ebusiness</a></li>
                    <li><a href="https://github.com/aliolden/IS1113Project" class="btn btn-dark">Github</a><li/>
                 </ul>
 	        
 	        <div id ="maincontent">
-	        <form method ="POST" action ="eBus2.html">
+	        <form method ="POST" action ="eBus2.php">
 	            <label for = "salesforce">
 	            &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="salesforce" name="product"  onClick="disablebtnProceed()"/>
 	            Salesforce @ $100
@@ -207,7 +195,7 @@ a{
 	        
 	        <br/>
 	        <div id ="button3">
-	        <a href="eBus1.html"><button>Clear Choice</a></button>
+	        <a href="eBus1.php"><button>Clear Choice</a></button>
 	        </div>
 	        </div>
 	        
