@@ -4,34 +4,23 @@
 	        <title>Select Product</title>
 	        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	        <script type = "text/javascript" src ="cost_calc.js"></script>
+	        <!--Adding style-->
 	        <style type = "text/css">
 h1 {
     color: White;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "times new roman" Times, Serif;
     font-size: 250%;
     top:10em;
 	left:25em;
     text-align:center;
 }
-
-ul li a:hover{
-  color:black;
-  background:blue;
-}
-ul li{
-  list-style: none;
-  display: inline;
-position: relative;  
-margin-left:130px;
-transform:translate(20%,30%);
-font-size:22px;
+div {
+   	text-align:center;
 }
 ul li a{
   text-decoration:none;
   margin: 20px;
-  
-  color:white;
-  
+   color:white;
   
 }
 
@@ -46,8 +35,6 @@ ul li {
    display:inline;
   position:relative;
   top:30%;
-
-  
 }
 
 ul{
@@ -56,17 +43,6 @@ ul{
   height:10%;
   position:absolute;
   
-}
-.container{
-    text-align: center;
-}
-
-
-
-a{
-    text-decoration: none;
-    color:black;
-    margin:5%;
 }
 	        #maincontent {
 	                        top:13em;
@@ -125,20 +101,22 @@ a{
 	        </style>
 	    </head>
 	    <body>
-	        
-	         <h1 style="background-color:#34495E;"  class="mainheading" > Please Select a Product </h1>
+	        <!--Adding a heading-->
+	         <h1 style="background-color:#34495E;"  class="mainheading" > Select A Product </h1>
         
-        
+     <!--Adding the nav bar-->
+      <ul>
 <div class="container">
                 <ul>
                    <li><a href="CV/cv_Page1.html" class="curriculum">Curriculum Vitae</a></li>
                    <li><a href="interests/sports.html">Interests</a></li>
-                   <li><a href="eBusiness/eBus1.php">Ebusiness</a></li>
+                   <li><a href="eBusiness/eBus1.html">Ebusiness</a></li>
                    <li><a href="https://github.com/aliolden/IS1113Project" class="btn btn-dark">Github</a><li/>
                 </ul>
 	        
+	           <!--Putting in radio buttons-->
 	        <div id ="maincontent">
-	        <form method ="POST" action ="eBus2.php">
+	        <form method ="POST" action ="ebus2.html">
 	            <label for = "salesforce">
 	            &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="salesforce" name="product"  onClick="disablebtnProceed()"/>
 	            Salesforce @ $100
@@ -160,6 +138,7 @@ a{
 	            </label>
 	            
 	            <br><br><br>
+	            <!--Putting in buttons-->
 	            <label for ="subtotal">
 	            <Strong> &nbsp;  Sub Total:</Strong> 
 	              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "text" id="subtotal" name="subtotal" value="0.00" readonly/>
@@ -187,6 +166,7 @@ a{
 	            <button type = "submit" id="btnProceed" disable>Add to Shopping Cart</button>
 	            </div>
 	            </form> 
+	            <!--Adding button that calculates the cost-->
 	            <div id ="button2">
 	          <button onClick="calcSub();calcDisVatTotal()">Calculate Cost</button>
 	          </div>
@@ -194,11 +174,12 @@ a{
 	       
 	        
 	        <br/>
+	        <!--Button clears page--> 
 	        <div id ="button3">
-	        <a href="eBus1.php"><button>Clear Choice</a></button>
+	        <a href="eBus1.html"><button>Clear Choice</a></button>
 	        </div>
 	        </div>
-	        
+	                <a href="ebus2.html" class="btn btn-dark">Next</a>
 	    <br/>
        <br/>
        <br/>
@@ -231,6 +212,5 @@ a{
        <br/>
        <br/>
        <br/>
-
-	    </body>
-	</html>
+       </body>
+       </html>
