@@ -104,7 +104,7 @@ ul{
                 <ul>
                    <li><a href="CV/cv_Page1.html" class="curriculum">Curriculum Vitae</a></li>
                    <li><a href="interests/sports.html">Interests</a></li>
-                   <li><a href="eBusiness/eBus1.html">Ebusiness</a></li>
+                   <li><a href="eBusiness/eBus1.php">Ebusiness</a></li>
                    <li><a href="https://github.com/aliolden/IS1113Project" class="btn btn-dark">Github</a><li/>
                 </ul>
 	        
@@ -134,6 +134,8 @@ ul{
 	            
 	            <br>
 	            <button onClick="validateDetails()">Validate</button>
+	            
+	            <a href="eBus3.html" class="btn btn-dark">Next</a>
 	            
 	        </div>
 	        
